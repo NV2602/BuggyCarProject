@@ -25,7 +25,7 @@ namespace BuggyCarProject.Tests
         [Test]
         public void SucessfulLogin()
         {
-            LogintoApp("LpsNew1", "Test@123");
+            LogintoApp("BuggyUser", "Test@123");
         }
         public void LogintoApp(string strLogin , string strPass)
         {
